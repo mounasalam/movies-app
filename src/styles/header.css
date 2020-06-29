@@ -22,7 +22,7 @@ div.layer{
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 95vh;
 }
 
 a.logo-color {
@@ -34,7 +34,7 @@ div.background-img {
     background-image: url(https://a.ltrbxd.com/resized/sm/upload/5l/n4/pt/7k/9DC753F7-48D9-46BC-9CB1-327CF39823B5-1920-1920-1080-1080-crop-000000.jpg?k=35a65d24e6);
     background-repeat: no-repeat;
     background-position: center -15px;
-    background-size: 90%;   
+    background-size: 100%;   
 }
 header.app-header {
  position: absolute;

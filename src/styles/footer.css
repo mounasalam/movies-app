@@ -1,0 +1,31 @@
+
+.content-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.page-footer .footer-nav {
+    flex: 0 0 auto;
+    /* margin-bottom: 1em; */
+    font-weight: 400;
+}
+
+.page-footer .social {
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+.page-footer .copyright {
+    flex: 1 0 100%;
+    font-size: .92307692rem;
+    color: #678;
+    line-height: 1.5;
+}  
+
+.page-footer .footer-nav ul li {
+    display: inline-block;
+    font-size: 1.15384615rem;
+    margin-right: 1em;
+}

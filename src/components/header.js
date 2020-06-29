@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/header.css';
-// import Navbar from 'react-bootstrap/Navbar'
-import  { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
+import  { Navbar, Nav } from 'react-bootstrap'
 
 
 
@@ -28,8 +27,10 @@ function Header() {
                 <Nav.Link href="#deets">Create Account</Nav.Link>
                 <Nav.Link href="#deets">Films</Nav.Link>
                 <Nav.Link href="#deets">List</Nav.Link>
-            
-                </Nav>
+                <Nav.Link href="#deets">
+                    {/* <input type="text" name="q" id="search-q" class="field -borderless" data-lpignore="true" value=""> */}
+                </Nav.Link>
+            </Nav>
             </Navbar.Collapse>
         </Navbar>
     </header>

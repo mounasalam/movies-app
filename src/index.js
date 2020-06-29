@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './components/header';
+import Footer from './components/footer';
+import Highlights from './components/highlights';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +14,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <App />
+    <Highlights />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
