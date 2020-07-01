@@ -7,15 +7,18 @@ import Highlights from './components/highlights';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Featured from './components/featured';
 //import ReactBootstrap, {Jumbotron, Button, Col, Grid, Panel, FormGroup} from 'react-bootstrap'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+    {/* <Header />
     <Highlights />
-    <Footer />
+    <Featured />
+    <Footer /> */}
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

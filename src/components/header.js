@@ -2,13 +2,16 @@ import React from 'react';
 import '../styles/header.css';
 import  { Navbar, Nav } from 'react-bootstrap'
 
+import { Overlay } from "@react-md/overlay";
 
 
 function Header() {
+    const toggle = true;
+    const requestClose = false;
   return (
       <div className="wrapper">
           <div className="background-img"> 
-          <div className="layer"></div>
+          <div className="overlay"></div>
            </div>
       <header className="app-header">
         <Navbar collapseOnSelect expand="md" variant="dark">
@@ -35,7 +38,6 @@ function Header() {
         </Navbar>
     </header>
     </div>
-
   );
 }
 
